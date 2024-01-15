@@ -1,0 +1,116 @@
+
+
+.nav-bar{
+  display: flex;
+  gap: 2.5rem;
+  float: right;
+  margin-right: 12rem; 
+margin-top: 1.4rem;
+  color: white;
+ 
+}
+
+.nav-bar i{
+  font-size: 1.5rem;
+}
+
+.hero{
+  color: white;
+width: 100%;
+}
+.my-button{
+  border-radius: 50px;
+  background-color: #18306e;
+  color:white;
+
+  border-color: white ;
+  padding: 0.4rem;
+  }
+.inputs{
+  display: flex;
+  gap: 1rem;
+}
+  input{
+    padding: 0.5rem;
+    
+  }
+
+  #Sub-button{
+    padding: 0.6rem;
+    background-color: #fd1c58;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: none;
+    
+  }
+
+  .features{
+    background-color: white;
+    text-align: center;
+    
+  }
+
+  .features h2{
+    font-weight: bold;
+    padding-top: 1rem;
+
+  }
+
+  .card-component{
+    
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .my-card img{
+   margin-bottom: 3rem;
+   
+    position: relative;
+    max-width: 300px; 
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+  
+.my-card {
+  position: relative;
+  max-width: 300px;
+  padding: 20px;
+margin-top: 2rem;
+  background-color: #18306e;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.my-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);}
+
+  .my-card h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.my-card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .my-card {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .my-card {
+        flex: 0 0 calc(100% - 20px);
+    }
+}
